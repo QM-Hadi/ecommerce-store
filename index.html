@@ -85,7 +85,6 @@
         }
     </style>
 </head>
-
 <body>
     <header>
         <h1>eCommerce Store</h1>
@@ -98,13 +97,16 @@
             <!-- Products will be injected here by JavaScript -->
         </section>
     </main>
-    <!-- <footer >
+   <footer >
         <p>copyright&copy; 2024 eCommerce Store by muhammad muddassir</p>
     </footer>
 
-    <script>
 
 
+    //here , javascript is started
+    
+    <script type="module">
+        
 var products = [
   {
     id: 1,
@@ -189,122 +191,6 @@ var products = [
     rating: { rate: 1.9, count: 100 },
   },
   {
-    id: 9,
-    
-    <!DOCTYPE html>
-    <html lang="en">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>eCommerce Website</title>
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box;
-            }
-
-            header {
-                background: #333;
-                color: white;
-                padding: 10px 0;
-                text-align: center;
-            }
-
-            header h1 {
-                margin: 0;
-            }
-
-            nav button {
-                background: #ff5722;
-                border: none;
-                color: white;
-                padding: 10px 20px;
-                cursor: pointer;
-            }
-
-            main {
-                padding: 20px;
-            }
-
-            #product-list {
-                display: flex;
-                flex-wrap: wrap;
-                gap: 20px;
-            }
-
-            .product {
-                border: 1px solid #ddd;
-                border-radius: 8px;
-                overflow: hidden;
-                width: 200px;
-                text-align: center;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            }
-
-            .product img {
-                width: 100%;
-                height: auto;
-            }
-
-            .product h2 {
-                font-size: 1.2em;
-                margin: 10px 0;
-            }
-
-            .product p {
-                margin: 10px 0;
-                color: #555;
-            }
-
-            .add-to-cart {
-                background: #ff5722;
-                border: none;
-                color: white;
-                padding: 10px;
-                cursor: pointer;
-                border-radius: 4px;
-            }
-
-            .add-to-cart.added {
-                background: #4caf50;
-            }
-
-            footer {
-                background: #333;
-                color: white;
-                text-align: center;
-                padding: 10px 0;
-                position: fixed;
-                width: 100%;
-                bottom: 0;
-            }
-
-            .cart-number {
-                font-weight: bold;
-            }
-        </style>
-    </head>
-
-    <body>
-        <header>
-            <h1>eCommerce Store</h1>
-            <nav>
-                <button id="view-cart">View Cart (<span id="cart-number" class="cart-number">0</span>)</button>
-            </nav>
-        </header>
-        <main>
-            <section id="product-list">
-                <!-- Products will be injected here by JavaScript -->
-            </section>
-        </main>
-        <footer>
-            <p>&copy; 2024 eCommerce Store by Muhammad Muddassir</p>
-        </footer>
-
-        <script>
             document.addEventListener('DOMContentLoaded', () => {
                 const products = [
                     {
@@ -514,9 +400,7 @@ var products = [
                         rating: { rate: 3.6, count: 145 },
                     },
                 ];
-
-
-
+ 
                 const productList = document.getElementById('product-list');
                 const cartNumber = document.getElementById('cart-number');
 
